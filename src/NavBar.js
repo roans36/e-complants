@@ -31,7 +31,7 @@ const NavBar = () => {
 
 
 
-      <div className=" bg-limeyel sticky top-0 w-full sm:flex sm:justify-around bg-opacity-80 bg-clip-padding backdrop:backdrop-filter backdrop-blur-sm p-0 text-gray-600">
+      <div className=" bg-limeyel sticky top-0 w-full sm:flex sm:justify-around bg-opacity-80 bg-clip-padding backdrop:backdrop-filter backdrop-blur-sm p-0 text-gray-600 z-50">
         <nav className=" flex justify-around items-center max-[1020px]:px-3 py-2">
           <div>
             <h1 className=""><img src={require("./New folder (2)/logo/logo.png")} alt="" height='120px' width='180px' /></h1>

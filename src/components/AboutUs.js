@@ -15,7 +15,7 @@ const AboutUs = () => {
           <div>Our wide variety of plants can help you get stimulated to creative works and help you maintain your mental health while also uplifting your way of life. Aranyak avails an efficient team of designers to help you plan your indoor and outdoor beautification works in no time. Enjoy your journey with Aranyak!</div>
         </div>
         <div className="grid max-[1020px]:block grid-cols-2 mt-12 pl-0 md:items-center m-3 ">
-          <div className=" static border rounded-3xl">
+          <div className=" max-[1020px]:static border rounded-3xl">
             <img className="rounded-3xl " src={require("./peoples/badhon.png")} alt="" />
           </div>
           <div className="max-[1020px]:absolute bg-white border rounded-3xl border-orange-300 md:h-44 md:w-[680px] overflow-hidden mt-0 lg:-ml-24 max-[720px]:text-center max-[1020px]:-mt-9 ">
