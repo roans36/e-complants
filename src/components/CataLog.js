@@ -30,8 +30,8 @@ const CataLog = () => {
   };
   return (
     <>
-      <div className="m-6 p-5 ml-20 font-Raleway z-0">
-        <div className="text-3xl font-semibold text-[#1C4F40]">Our Products
+      <div className="m-2 p-2 md:ml-20 font-Raleway z-0">
+        <div className="text-3xl font-semibold text-[#1C4F40]" id="/catalog">Our Products
         </div>
         <div className="text-5xl text-[#E3A476] py-6" ><b> New </b> Arrivals
         </div>
@@ -39,12 +39,12 @@ const CataLog = () => {
 
 
         <div className="">
-          <Carousel responsive={responsive} draggable={true} swipeable={true} className=" m-5 grid gap-3 relative z-1">
+          <Carousel responsive={responsive} draggable={true} swipeable={true} className=" m-1 grid gap-3 relative z-1">
 
 
 
 
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -74,7 +74,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -104,7 +104,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -134,7 +134,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -164,7 +164,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -198,17 +198,17 @@ const CataLog = () => {
         </div>
 
         <div>
-          <div className="m-8 p-6 text-[60px] text-[#E3A476] text-end "> <b>Popular</b>little Plants</div>
+          <div className="md:m-8 md:p-6 text-[60px] text-[#E3A476] text-end max-[720px]:text-center"> <b>Popular</b>little Plants</div>
 
         </div>
         <div2>
 
-          <Carousel responsive={responsive} draggable={true} swipeable={true} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />} className=" m-5 grid gap-3 relative z-1">
+          <Carousel responsive={responsive} draggable={true} swipeable={true} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />} className=" m-1 grid gap-3 relative z-1">
 
 
 
 
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -238,7 +238,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -268,7 +268,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -298,7 +298,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -328,7 +328,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -362,17 +362,17 @@ const CataLog = () => {
         </div2>
 
         <div>
-          <div className="m-8 p-6 text-[60px] text-[#E3A476] text-left "> <b>Easy</b>To Care Plants</div>
+          <div className="my-5 py-7 text-[60px] text-[#E3A476] text-left "> <b>Easy</b>To Care Plants</div>
 
         </div>
         <div3>
 
-          <Carousel responsive={responsive} draggable={true} swipeable={true} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />} className=" m-5 grid gap-3 relative z-1">
+          <Carousel responsive={responsive} draggable={true} swipeable={true} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />} className=" m-1 grid gap-3 relative z-1">
 
 
 
 
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -402,7 +402,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -432,7 +432,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -462,7 +462,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -492,7 +492,7 @@ const CataLog = () => {
                 </div>
               </div>
             </div>
-            <div className="m-3 p-4">
+            <div className="m-1 p-1">
               <div className=" box rounded-3xl border hover:border-[#bd9c5e]  ">
 
 
@@ -524,7 +524,7 @@ const CataLog = () => {
             </div>
           </Carousel>
         </div3>
-        <div className="inline-flex lg:block mt-9 pt-10">
+        <div className="inline-flex lg:block mt-2 pt-6">
           <div className="flex justify-center mt-10">
             <button className='border border-black rounded-full h-12 w-[320px] text-white hover:text-black text-xl cursor-pointer flex  bg-gradient-to-tr from-[#a5f3fc] to-[#164e63] max-[720px]:w-[300px] max-[500px]:w-[270px] outline transition duration-500 hover:outline-offset-8 '>
 

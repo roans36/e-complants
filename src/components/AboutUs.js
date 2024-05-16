@@ -2,8 +2,8 @@ const AboutUs = () => {
   return (
 
     <>
-      <div className="font-Raleway m-2  md:m-6  py-16 max-[720px]:text-center md:px-10 p-5 ">
-        <div className="bold text-[20px] "><b>About Us</b></div>
+      <div className="font-Raleway m-2  md:m-6  py-16 max-[720px]:text-center md:px-10 p-5 " >
+        <div className="bold text-[20px] " id="/about"><b>About Us</b></div>
         <div className=" text-orange-400 text-[64px]">Our <b>Core </b>Team</div>
         <div className=" text-orange-400 text-[64px]">And Their <b>Philosophy </b></div>
         <div className="grid md:grid-cols-2 gap-9 m-2 py-4">

@@ -1,8 +1,10 @@
 
+import { Link2 } from "lucide-react";
 import React, { useState } from "react"
 import { BiSearch } from "react-icons/bi";
 
 import { NavLink } from "react-router-dom"
+import { Link } from "react-scroll";
 
 
 
@@ -71,11 +73,12 @@ const NavBar = () => {
                 <input type="text" id="default-search" className="  bg-transparent bg-opacity-60 block w-70 h-10  ps-12 text-sm border border-black rounded-full dark:placeholder   " placeholder='Search' />
               </div>
             </NavLink>
-            <NavLink className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2' to='/home'>Home</NavLink>
-            <NavLink className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2' to='/about'>About</NavLink>
-            <NavLink className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2' to='/catalog'>Catalog</NavLink>
-            <NavLink className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2' to='/reviews'>Reviews</NavLink>
-            <NavLink className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2' to='/support'>Support</NavLink>
+
+            <Link className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2 cursor-pointer' to='/home' smooth={true} duration={500} offset={-100}>Home</Link>
+            <Link className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2 cursor-pointer' to="/about" smooth={true} duration={500} offset={-100}>About</Link>
+            <Link className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2 cursor-pointer' to='/catalog' smooth={true} duration={500} offset={-100}>Catalog</Link>
+            <Link className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2 cursor-pointer' to='/reviews' smooth={true} duration={500} offset={-100}>Reviews</Link>
+            <Link className='block px-2 py-1 font-semibold rounded sm:mt-0 sm:ml-2 cursor-pointer' to='/support' smooth={true} duration={500} offset={-100}>Support</Link>
           </div >
         </div>
 
